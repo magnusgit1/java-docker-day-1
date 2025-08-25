@@ -37,4 +37,4 @@ out/
 .vscode/
 *.jar
 application.yml
-docker/
+docker-compose.yml
