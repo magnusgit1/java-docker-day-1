@@ -13,21 +13,9 @@
 
 ## Core
 
-Create an API with the usual GET/PUT/POST/DELETE endpoints.
+Either create an API with the usual GET/PUT/POST/DELETE endpoints or reuse one of your previous APIs and copy it into this repository. You can even choose to reuse the Security Repo from the previous sessions.
 
-The API should serve user data for students attending a bootcamp.
-
-The data for students should include:
-
-* Unique ID
-* First Name
-* Last Name
-* Date of Birth
-* Course Title
-* Start Date for Course
-* Average Grade
-
-Your API should connect to an ElephantSQL database instance that can be used for storing the data.
+Your API should connect to a Neon database instance that can be used for storing the data.
 
 Create a `jar` file for the completed application make sure it is excluded from your GitHub solution!!!!!
 
@@ -39,5 +27,5 @@ To assess this we will clone your repository, add our own credentials to the clo
 
 ## Extension
 
-In addition to the Student details add in details of different Courses and reference them from the Student details as a Foreign Key relationship. The endpoints for Courses should be completed as expected.
+Create a Docker container with a Postgres Database in it, that your API talks to instead of the instance in Neon.
 
